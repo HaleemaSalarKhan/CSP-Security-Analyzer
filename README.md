@@ -63,8 +63,3 @@ Paste a CSP header string, click **Analyze CSP**, and the app will show:
 - risk/security score from 0 to 100
 - detected risk explanations
 
-## Dataset Notes
-
-The project now includes your real Tranco file at `data/tranco.csv`. The included generated CSV/model files are starter artifacts so the Streamlit app runs immediately. For final academic submission, run `01_data_collection.ipynb` using `data/tranco.csv` with 1000 to 3000 sites, then rerun the remaining notebooks.
-
-If you want to test quickly, change the collection notebook back to `data/tranco_domains_sample.csv`. For the full project dataset, keep it on `data/tranco.csv`.
